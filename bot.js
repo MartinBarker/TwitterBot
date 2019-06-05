@@ -7,12 +7,12 @@ var config = require('./config');
 
 var T = new Twit(config);
 
-//var T = new Twit({
-//  consumer_key:     'kyumIJqwMHNYP3tGCM39hHaPF'
-//, consumer_secret:  'mUv9WyKD2hgTh8FQYmMuSyB2oObyyuUz2JqkINWeAv7ER08Mo1'
-//, access_token:     '957408349515014147-q3mcIgjRdjZ7WajWAGyIrn1uNuO3xRn'
-//, access_token_secret: 'AuOu5oa261vLWmrxm7MsHFv565zyfLgICD2ECv9vKmLLW'
-//})
+var T = new Twit({
+  consumer_key:     'kyumIJqwMHNYP3tGCM39hHaPF'
+, consumer_secret:  'mUv9WyKD2hgTh8FQYmMuSyB2oObyyuUz2JqkINWeAv7ER08Mo1'
+, access_token:     '957408349515014147-q3mcIgjRdjZ7WajWAGyIrn1uNuO3xRn'
+, access_token_secret: 'AuOu5oa261vLWmrxm7MsHFv565zyfLgICD2ECv9vKmLLW'
+})
 
 var tweets = ["testtweet1", "testtweet2", "testtweet3"];
 var tweetThis = tweets[0];
